@@ -9,6 +9,6 @@ print(c)
 
 d = tf.constant([5, 3, 8])
 e = tf.constant([3, -1, 2])
-f = tf.add(d, e)
+f = tf.add(a, b)
 print(f)
 print(f.numpy())
